@@ -17,4 +17,6 @@ def insertion(arry)
   answer
 end
 
+# print example
+
 p insertion([5,32,12,2,3,2,1,3,4])
