@@ -1,11 +1,7 @@
-function fibonacci(n) {
-  if (n <= 2){
-    console.log(n)
-    return 1
+function fibo(n) {
+  if ( n < 2) {
+    return n
   } else {
-  console.log(n + "- 1 +" + n + "- 2" )
-  return fibonacci(n - 1) + fibonacci(n - 2);
+    return fibo(n - 1) + fibo(n - 2)
   }
 }
-
-fibonacci(5)
