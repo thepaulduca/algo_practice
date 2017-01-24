@@ -3,13 +3,13 @@
 // everything larger in a different arry
 // then call quicksort on each list recursively
 
-function quicksort(arry){
+function quicksort(arry) {
   if(arry.length <= 1) return arry;
   var pivot = arry.pop();
   var bigger = []
   var smaller = []
-  for(let i = 0; i < arry.length; i ++){
-    if(arry[i] < pivot){
+  for(let i = 0; i < arry.length; i ++) {
+    if(arry[i] < pivot) {
       smaller.push(arry[i])
     } else {
       bigger.push(arry[i])

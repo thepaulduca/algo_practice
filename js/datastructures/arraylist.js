@@ -10,10 +10,7 @@ class ArrayList {
   }
 
   pop(value){
-    var response = this.data[this.length - 1];
-    delete this.data[this.length -1];
-    this.length--;
-    return response
+    return this.delete(this.length-1)
   }
 
   get(index){
