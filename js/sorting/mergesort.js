@@ -7,10 +7,10 @@ function mergsort(arry) {
   return glue(mergsort(left), mergsort(right))
 }
 
-function glue(arry1, arry2){
+function glue(arry1, arry2) {
   var sorted = [];
-  while(arry1.length && arry2.length){
-    if(arry1[0] <= arry2[0]){
+  while(arry1.length && arry2.length) {
+    if(arry1[0] <= arry2[0]) {
       sorted.push(arry1.shift());
     } else {
       sorted.push(arry2.shift());
