@@ -55,10 +55,6 @@ class Node {
     }
   }
 
-  delete(value) {
-    var node = search(value);
-    if(!node) return null;
-  }
 
  }
 
